@@ -2,9 +2,9 @@ import { LockModel } from './types';
 
 export const UI_CONFIG = {
   disclaimer: {
-    textCN: 'AI模型处于试用阶段，可能会生成不完美照片，重新生成即可优化效果。',
-    textEN: 'AI in Beta. Results may vary. Re-generate to optimize quality.',
-    textBM: 'Model AI dalam Beta. Keputusan mungkin berbeza. Jana semula untuk kualiti lebih baik.'
+    textCN: 'AI 正在处理光影匹配，若生成失败请重试。建议上传光线充足的大门正面照。',
+    textEN: 'AI is matching light and shadows. If it fails, please retry. Best results with front-facing, well-lit photos.',
+    textBM: 'AI sedang menyelaraskan cahaya. Jika gagal, sila cuba lagi. Keputusan terbaik dengan foto depan yang terang.'
   }
 };
 
@@ -17,13 +17,13 @@ export const TRANSLATIONS = {
     step2: '2. Select Smart Lock',
     generateBtn: 'Generate Preview',
     generating: 'AI Processing...',
-    generatingSub: 'Matching perspective & light...',
+    generatingSub: 'Step {n}: Optimizing image...',
     canvasTitle: 'Visual Result',
     canvasEmpty: 'Upload and pick a lock to start',
     downloadBtn: 'Save Image',
-    error: 'AI Error, try again later.',
-    retryBtn: 'Retry Now',
-    quotaError: 'The AI is currently overloaded. Please wait 10-15 seconds and try again.',
+    error: 'AI Error, please try again.',
+    retryBtn: 'Auto-retrying...',
+    quotaError: 'Server busy. Auto-retrying in a moment...',
     uploadFirst: 'Please upload photo first',
     privacyNotice: 'Privacy: Photos are processed in real-time and NOT stored.'
   },
@@ -35,13 +35,13 @@ export const TRANSLATIONS = {
     step2: '2. Pilih Kunci Pintar',
     generateBtn: 'Jana Visual',
     generating: 'Sedang Menjana...',
-    generatingSub: 'Menyelaras cahaya & perspektif...',
+    generatingSub: 'Langkah {n}: Mengoptimumkan imej...',
     canvasTitle: 'Hasil Visual',
     canvasEmpty: 'Muat naik dan pilih kunci untuk mula',
     downloadBtn: 'Simpan Gambar',
     error: 'Gangguan AI, cuba lagi.',
-    retryBtn: 'Cuba Lagi',
-    quotaError: 'AI sedang sibuk. Sila tunggu 10-15 saat dan cuba lagi.',
+    retryBtn: 'Cuba lagi...',
+    quotaError: 'AI sibuk. Sedang mencuba semula...',
     uploadFirst: 'Muat naik foto dahulu',
     privacyNotice: 'Privasi: Foto diproses secara masa nyata dan TIDAK disimpan.'
   },
@@ -53,13 +53,13 @@ export const TRANSLATIONS = {
     step2: '2. 选择智能锁款式',
     generateBtn: '立即生成',
     generating: 'AI 正在处理...',
-    generatingSub: '正在匹配光影与角度...',
+    generatingSub: '第 {n} 步：正在优化图像并匹配...',
     canvasTitle: '预览效果',
     canvasEmpty: '请先上传照片并选择型号',
     downloadBtn: '下载预览图',
     error: '生成失败，请稍后重试',
-    retryBtn: '立即重试',
-    quotaError: 'AI 引擎目前负载过高，请等待 10-15 秒后再次尝试。',
+    retryBtn: '正在尝试重连...',
+    quotaError: 'AI 通道繁忙，正在为您自动重试...',
     uploadFirst: '请先上传照片',
     privacyNotice: '隐私保护：上传的照片仅用于实时生成，不会被保存。'
   }
@@ -71,7 +71,5 @@ export const LOCK_MODELS: LockModel[] = [
   { id: 's70-copper', name: 'Stanley S70 Copper', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97773693.png?width=1024&format=webp' },
   { id: 'f50-black', name: 'Stanley F50 Black', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97774885.png?width=1024&format=webp' },
   { id: 'dl50-black', name: 'Ezviz DL50FVS', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97778082.png?width=1024&format=webp' },
-  { id: 'd100-black', name: 'Aqara D100', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97779039.png?width=1024&format=webp' },
-  { id: 'h100-pro', name: 'Stanley H100 Pro', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97772909.png?width=1024&format=webp' },
-  { id: 'm30-slim', name: 'M30 Slim Series', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97774885.png?width=1024&format=webp' }
+  { id: 'd100-black', name: 'Aqara D100', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97779039.png?width=1024&format=webp' }
 ];
