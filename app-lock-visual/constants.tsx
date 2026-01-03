@@ -1,4 +1,3 @@
-
 import { LockModel } from './types';
 
 export const UI_CONFIG = {
@@ -15,7 +14,7 @@ export const TRANSLATIONS = {
     step1: '1. Upload Door',
     step1Hint: 'Upload your door photo',
     changePhoto: 'Change',
-    step2: '2. Pick Model',
+    step2: '2. Select Smart Lock',
     generateBtn: 'Generate Preview',
     generating: 'AI Processing...',
     generatingSub: 'Matching perspective & light...',
@@ -24,14 +23,15 @@ export const TRANSLATIONS = {
     downloadBtn: 'Save Image',
     error: 'AI Error, try again later.',
     quotaError: 'AI is busy. Please wait 60s.',
-    uploadFirst: 'Please upload photo first'
+    uploadFirst: 'Please upload photo first',
+    privacyNotice: 'Privacy: Uploaded photos are processed in real-time and NOT stored on our servers.'
   },
   bm: {
     title: 'Visualizer AI Pintu',
     step1: '1. Muat Naik Pintu',
     step1Hint: 'Muat naik foto pintu anda',
     changePhoto: 'Tukar',
-    step2: '2. Pilih Model',
+    step2: '2. Pilih Kunci Pintar',
     generateBtn: 'Jana Visual',
     generating: 'Sedang Menjana...',
     generatingSub: 'Menyelaras cahaya & perspektif...',
@@ -40,14 +40,15 @@ export const TRANSLATIONS = {
     downloadBtn: 'Simpan Gambar',
     error: 'Gangguan AI, cuba lagi.',
     quotaError: 'AI sibuk. Tunggu 60 saat.',
-    uploadFirst: 'Muat naik foto dahulu'
+    uploadFirst: 'Muat naik foto dahulu',
+    privacyNotice: 'Privasi: Foto yang dimuat naik diproses secara masa nyata dan TIDAK disimpan dalam pelayan kami.'
   },
   cn: {
     title: '智能锁 AI 预览',
     step1: '1. 上传大门',
     step1Hint: '点击上传您的大门正面照',
     changePhoto: '更换照片',
-    step2: '2. 选择型号',
+    step2: '2. 选择智能锁款式',
     generateBtn: '立即生成',
     generating: 'AI 正在处理...',
     generatingSub: '正在匹配光影与角度...',
@@ -56,7 +57,8 @@ export const TRANSLATIONS = {
     downloadBtn: '下载预览图',
     error: '生成失败，请稍后重试',
     quotaError: 'AI 通道繁忙，请稍等 60 秒。',
-    uploadFirst: '请先上传照片'
+    uploadFirst: '请先上传照片',
+    privacyNotice: '隐私保护：上传的照片仅用于实时AI生成，我们不会在服务器保存您的照片。'
   }
 };
 
