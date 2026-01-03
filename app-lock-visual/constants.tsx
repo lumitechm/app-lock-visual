@@ -22,9 +22,10 @@ export const TRANSLATIONS = {
     canvasEmpty: 'Upload and pick a lock to start',
     downloadBtn: 'Save Image',
     error: 'AI Error, try again later.',
-    quotaError: 'AI is busy. Please wait 60s.',
+    retryBtn: 'Try Again',
+    quotaError: 'AI is currently busy. Please try again in a few seconds.',
     uploadFirst: 'Please upload photo first',
-    privacyNotice: 'Privacy: Uploaded photos are processed in real-time and NOT stored on our servers.'
+    privacyNotice: 'Privacy: Photos are processed in real-time and NOT stored.'
   },
   bm: {
     title: 'Visualizer AI Pintu',
@@ -39,9 +40,10 @@ export const TRANSLATIONS = {
     canvasEmpty: 'Muat naik dan pilih kunci untuk mula',
     downloadBtn: 'Simpan Gambar',
     error: 'Gangguan AI, cuba lagi.',
-    quotaError: 'AI sibuk. Tunggu 60 saat.',
+    retryBtn: 'Cuba Lagi',
+    quotaError: 'AI sibuk. Sila cuba lagi sebentar lagi.',
     uploadFirst: 'Muat naik foto dahulu',
-    privacyNotice: 'Privasi: Foto yang dimuat naik diproses secara masa nyata dan TIDAK disimpan dalam pelayan kami.'
+    privacyNotice: 'Privasi: Foto diproses secara masa nyata dan TIDAK disimpan.'
   },
   cn: {
     title: '智能锁 AI 预览',
@@ -56,9 +58,10 @@ export const TRANSLATIONS = {
     canvasEmpty: '请先上传照片并选择型号',
     downloadBtn: '下载预览图',
     error: '生成失败，请稍后重试',
-    quotaError: 'AI 通道繁忙，请稍等 60 秒。',
+    retryBtn: '重试',
+    quotaError: 'AI 通道暂时繁忙，请在几秒后重试。',
     uploadFirst: '请先上传照片',
-    privacyNotice: '隐私保护：上传的照片仅用于实时AI生成，我们不会在服务器保存您的照片。'
+    privacyNotice: '隐私保护：上传的照片仅用于实时生成，不会被保存。'
   }
 };
 
@@ -68,5 +71,9 @@ export const LOCK_MODELS: LockModel[] = [
   { id: 's70-copper', name: 'Stanley S70 Copper', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97773693.png?width=1024&format=webp' },
   { id: 'f50-black', name: 'Stanley F50 Black', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97774885.png?width=1024&format=webp' },
   { id: 'dl50-black', name: 'Ezviz DL50FVS', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97778082.png?width=1024&format=webp' },
-  { id: 'd100-black', name: 'Aqara D100', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97779039.png?width=1024&format=webp' }
+  { id: 'd100-black', name: 'Aqara D100', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97779039.png?width=1024&format=webp' },
+  { id: 'v100-silver', name: 'Smart V100 Silver', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97772909.png?width=1024&format=webp' },
+  { id: 'x5-matte', name: 'Lock X5 Matte', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97772859.png?width=1024&format=webp' },
+  { id: 'g30-titan', name: 'G30 Titan Pro', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97773693.png?width=1024&format=webp' },
+  { id: 'm2-black', name: 'M2 Mini Black', description: '', imageUrl: 'https://cdn.store-assets.com/s/1002792/i/97774885.png?width=1024&format=webp' }
 ];
